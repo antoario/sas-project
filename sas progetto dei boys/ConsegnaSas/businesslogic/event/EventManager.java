@@ -1,6 +1,7 @@
 package businesslogic.event;
 
 import javafx.collections.ObservableList;
+import main.businesslogic.event.EventInfo;
 
 import java.util.Random;
 

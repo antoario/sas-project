@@ -1,6 +1,7 @@
 package businesslogic.user;
 
 import javafx.collections.FXCollections;
+import main.businesslogic.user.User;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;
 

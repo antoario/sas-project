@@ -2,8 +2,8 @@ package main.businesslogic.menu;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import main.persistence.BatchUpdateHandler;
-import main.persistence.PersistenceManager;
+import main.pesistence.BatchUpdateHandler;
+import main.pesistence.PersistenceManager;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

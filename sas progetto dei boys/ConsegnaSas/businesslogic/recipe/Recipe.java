@@ -2,6 +2,7 @@ package businesslogic.recipe;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import main.businesslogic.recipe.Recipe;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;
 

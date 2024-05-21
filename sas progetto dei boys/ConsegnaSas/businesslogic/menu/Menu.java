@@ -1,11 +1,14 @@
 package businesslogic.menu;
 
-import businesslogic.CatERing;
-import businesslogic.recipe.Recipe;
-import businesslogic.user.User;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
+import main.businesslogic.CatERing;
+import main.businesslogic.menu.Menu;
+import main.businesslogic.menu.MenuItem;
+import main.businesslogic.menu.Section;
+import main.businesslogic.recipe.Recipe;
+import main.businesslogic.user.User;
 import persistence.BatchUpdateHandler;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;

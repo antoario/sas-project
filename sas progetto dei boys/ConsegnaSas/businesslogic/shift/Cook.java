@@ -8,6 +8,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import main.businesslogic.shift.Cook;
+
 public class Cook {
     private int id_cook;
     private String name;

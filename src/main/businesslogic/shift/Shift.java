@@ -5,7 +5,7 @@ import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
 import main.businesslogic.UseCaseLogicException;
 import main.businesslogic.user.User;
-import main.persistence.PersistenceManager;
+import main.pesistence.PersistenceManager;
 
 import java.sql.Time;
 import java.time.Duration;

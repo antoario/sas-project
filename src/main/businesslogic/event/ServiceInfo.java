@@ -4,7 +4,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import main.businesslogic.CatERing;
 import main.businesslogic.menu.Menu;
-import main.persistence.PersistenceManager;
+import main.pesistence.PersistenceManager;
 
 import java.sql.Date;
 import java.sql.Time;

@@ -2,6 +2,8 @@ package businesslogic.menu;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import main.businesslogic.menu.MenuItem;
+import main.businesslogic.menu.Section;
 import persistence.BatchUpdateHandler;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;

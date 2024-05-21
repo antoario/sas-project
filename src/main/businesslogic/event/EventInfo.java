@@ -3,7 +3,7 @@ package main.businesslogic.event;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import main.businesslogic.user.User;
-import main.persistence.PersistenceManager;
+import main.pesistence.PersistenceManager;
 
 import java.sql.Date;
 

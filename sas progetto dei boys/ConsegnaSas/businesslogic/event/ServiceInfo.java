@@ -1,8 +1,10 @@
 package businesslogic.event;
 
-import businesslogic.user.User;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import main.businesslogic.event.EventItemInfo;
+import main.businesslogic.event.ServiceInfo;
+import main.businesslogic.user.User;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;
 

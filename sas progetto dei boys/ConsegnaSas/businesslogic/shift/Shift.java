@@ -1,6 +1,5 @@
 package businesslogic.shift;
 
-import businesslogic.event.ServiceInfo;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;
 
@@ -10,6 +9,10 @@ import java.sql.Time;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Objects;
+
+import main.businesslogic.event.ServiceInfo;
+import main.businesslogic.shift.Cook;
+import main.businesslogic.shift.Shift;
 
 public class Shift {
     int id_shift;

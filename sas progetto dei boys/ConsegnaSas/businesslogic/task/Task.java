@@ -1,11 +1,5 @@
 package businesslogic.task;
 
-import businesslogic.TaskException;
-import businesslogic.menu.Menu;
-import businesslogic.shift.KitchenShift;
-import businesslogic.shift.Shift;
-import businesslogic.shift.Cook;
-import businesslogic.recipe.Recipe;
 import persistence.BatchUpdateHandler;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;
@@ -18,6 +12,14 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
+
+import main.businesslogic.TaskException;
+import main.businesslogic.menu.Menu;
+import main.businesslogic.recipe.Recipe;
+import main.businesslogic.shift.Cook;
+import main.businesslogic.shift.KitchenShift;
+import main.businesslogic.shift.Shift;
+import main.businesslogic.task.Task;
 
 public class Task implements Comparable<Task> {
     private int id_task;

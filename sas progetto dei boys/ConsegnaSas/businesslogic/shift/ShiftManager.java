@@ -1,16 +1,19 @@
 package businesslogic.shift;
 
-import businesslogic.CatERing;
-import businesslogic.ShiftException;
-import businesslogic.TaskException;
-import businesslogic.UseCaseLogicException;
-import businesslogic.event.EventInfo;
-import businesslogic.event.ServiceInfo;
-import businesslogic.task.TaskEventReceiver;
-import businesslogic.user.User;
-
 import java.security.Provider;
 import java.util.ArrayList;
+
+import main.businesslogic.CatERing;
+import main.businesslogic.ShiftException;
+import main.businesslogic.TaskException;
+import main.businesslogic.UseCaseLogicException;
+import main.businesslogic.event.EventInfo;
+import main.businesslogic.event.ServiceInfo;
+import main.businesslogic.shift.KitchenShift;
+import main.businesslogic.shift.Shift;
+import main.businesslogic.shift.ShiftBoard;
+import main.businesslogic.task.TaskEventReceiver;
+import main.businesslogic.user.User;
 
 public class ShiftManager {
     private ArrayList<TaskEventReceiver> eventReceivers;

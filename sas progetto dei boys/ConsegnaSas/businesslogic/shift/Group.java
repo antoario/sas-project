@@ -2,6 +2,8 @@ package businesslogic.shift;
 
 import java.util.ArrayList;
 
+import main.businesslogic.shift.KitchenShift;
+
 public class Group {
     private ArrayList<KitchenShift> myShiftGroup;
     public Group(){

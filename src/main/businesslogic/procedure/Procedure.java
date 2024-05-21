@@ -2,7 +2,7 @@ package main.businesslogic.procedure;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import main.persistence.PersistenceManager;
+import main.pesistence.PersistenceManager;
 
 public class Procedure {
     protected int id;

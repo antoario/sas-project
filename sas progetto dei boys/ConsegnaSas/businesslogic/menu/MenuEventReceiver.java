@@ -1,5 +1,9 @@
 package businesslogic.menu;
 
+import main.businesslogic.menu.Menu;
+import main.businesslogic.menu.MenuItem;
+import main.businesslogic.menu.Section;
+
 public interface MenuEventReceiver {
     public void updateMenuCreated(Menu m);
 

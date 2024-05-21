@@ -1,7 +1,7 @@
 package main.businesslogic.user;
 
 import javafx.collections.FXCollections;
-import main.persistence.PersistenceManager;
+import main.pesistence.PersistenceManager;
 
 import java.util.HashSet;
 import java.util.Map;

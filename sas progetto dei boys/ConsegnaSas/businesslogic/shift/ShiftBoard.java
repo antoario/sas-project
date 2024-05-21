@@ -1,12 +1,15 @@
 package businesslogic.shift;
 
-import businesslogic.CatERing;
-import businesslogic.event.EventInfo;
-import businesslogic.event.ServiceInfo;
-import businesslogic.recipe.Recipe;
-import businesslogic.task.Task;
 import javafx.collections.ObservableList;
 import jdk.jfr.Event;
+import main.businesslogic.CatERing;
+import main.businesslogic.event.EventInfo;
+import main.businesslogic.event.ServiceInfo;
+import main.businesslogic.recipe.Recipe;
+import main.businesslogic.shift.Group;
+import main.businesslogic.shift.Shift;
+import main.businesslogic.shift.ShiftBoard;
+import main.businesslogic.task.Task;
 import persistence.BatchUpdateHandler;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;

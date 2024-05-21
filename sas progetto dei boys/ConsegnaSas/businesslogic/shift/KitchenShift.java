@@ -8,6 +8,9 @@ import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+import main.businesslogic.shift.KitchenShift;
+import main.businesslogic.shift.Shift;
+
 public class KitchenShift extends Shift{
     private int id_kitchen;
     private LocalDate perfDate;

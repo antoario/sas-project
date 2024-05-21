@@ -1,10 +1,15 @@
 package businesslogic.menu;
 
-import businesslogic.CatERing;
-import businesslogic.UseCaseLogicException;
-import businesslogic.recipe.Recipe;
-import businesslogic.user.User;
 import javafx.collections.ObservableList;
+import main.businesslogic.CatERing;
+import main.businesslogic.UseCaseLogicException;
+import main.businesslogic.menu.Menu;
+import main.businesslogic.menu.MenuEventReceiver;
+import main.businesslogic.menu.MenuException;
+import main.businesslogic.menu.MenuItem;
+import main.businesslogic.menu.Section;
+import main.businesslogic.recipe.Recipe;
+import main.businesslogic.user.User;
 
 import java.util.ArrayList;
 

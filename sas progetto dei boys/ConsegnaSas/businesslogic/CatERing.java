@@ -1,14 +1,15 @@
 package businesslogic;
 
-import businesslogic.event.EventManager;
-import businesslogic.menu.Menu;
-import businesslogic.menu.MenuManager;
-import businesslogic.recipe.RecipeManager;
-import businesslogic.shift.Shift;
-import businesslogic.shift.ShiftManager;
-import businesslogic.task.Task;
-import businesslogic.task.TaskManager;
-import businesslogic.user.UserManager;
+import main.businesslogic.CatERing;
+import main.businesslogic.event.EventManager;
+import main.businesslogic.menu.Menu;
+import main.businesslogic.menu.MenuManager;
+import main.businesslogic.recipe.RecipeManager;
+import main.businesslogic.shift.Shift;
+import main.businesslogic.shift.ShiftManager;
+import main.businesslogic.task.Task;
+import main.businesslogic.task.TaskManager;
+import main.businesslogic.user.UserManager;
 import persistence.MenuPersistence;
 import persistence.PersistenceManager;
 import persistence.TaskPersistence;

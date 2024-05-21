@@ -6,9 +6,9 @@ import main.businesslogic.procedure.ProcedureManager;
 import main.businesslogic.shift.ShiftManager;
 import main.businesslogic.summarysheet.SummarySheetManager;
 import main.businesslogic.user.UserManager;
-import main.persistence.MenuPersistence;
-import main.persistence.ShiftPersistence;
-import main.persistence.SummarySheetPersistence;
+import main.pesistence.MenuPersistence;
+import main.pesistence.ShiftPersistence;
+import main.pesistence.SummarySheetPersistence;
 
 public class CatERing {
     private static CatERing singleInstance;

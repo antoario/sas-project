@@ -1,7 +1,9 @@
 package businesslogic.task;
 
-import businesslogic.shift.Cook;
-import businesslogic.shift.Shift;
+import main.businesslogic.shift.Cook;
+import main.businesslogic.shift.Shift;
+import main.businesslogic.task.SummarySheet;
+import main.businesslogic.task.Task;
 
 public interface TaskEventReceiver {
     public void updateSummarySheetCreated(SummarySheet sumSheet);

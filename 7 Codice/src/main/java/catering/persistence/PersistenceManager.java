@@ -11,13 +11,13 @@ import java.sql.*;
 public class PersistenceManager {
     private static String url = "jdbc:mysql://localhost:3306/catering";
     private static String username = "root";
-    private static String password = "";
+    private static String password = "rootpassword";
 
     private static int lastId;
 
     public static String escapeString(String input) {
         input = input.replace("\\", "\\\\");
-        input = input.replace("\'", "\\\'");
+        input = input.replace("'", "\\'");
         input = input.replace("\"", "\\\"");
         input = input.replace("\n", "\\n");
         input = input.replace("\t", "\\t");

@@ -181,7 +181,7 @@ public class MenuContent {
 
     @FXML
     void addItemPressed() {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("insert-item-dialog.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/ui/menu/insert-item-dialog.fxml"));
         try {
             BorderPane pane = loader.load();
             InsertItemDialog controller = loader.getController();
@@ -272,7 +272,7 @@ public class MenuContent {
 
     @FXML
     public void editFeaturesButtonPressed() {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("menu-features-dialog.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/ui/menu/menu-features-dialog.fxml"));
         try {
             BorderPane pane = loader.load();
             MenuFeaturesDialog controller = loader.getController();
@@ -388,7 +388,7 @@ public class MenuContent {
 
     @FXML
     public void spostaItemPressed() {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("choose-section-dialog.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/ui/menu/choose-section-dialog.fxml"));
         try {
             BorderPane pane = loader.load();
             ChooseSectionDialog controller = loader.getController();

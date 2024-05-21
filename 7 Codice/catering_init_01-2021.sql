@@ -90,7 +90,7 @@ CREATE TABLE `MenuItems` (
 --
 
 LOCK TABLES `MenuItems` WRITE;
-/*!40000 ALTER TABLE `MenuItems` DISABLE KEYS */; 
+/*!40000 ALTER TABLE `MenuItems` DISABLE KEYS */;
 INSERT INTO `MenuItems` VALUES (96,80,0,'Croissant vuoti',9,0),(97,80,0,'Croissant alla marmellata',9,1),(98,80,0,'Pane al cioccolato mignon',10,2),(99,80,0,'Panini al latte con prosciutto crudo',12,4),(100,80,0,'Panini al latte con prosciutto cotto',12,5),(101,80,0,'Panini al latte con formaggio spalmabile alle erbe',12,6),(102,80,0,'Girelle all uvetta mignon',11,3),(103,82,0,'Biscotti',13,1),(104,82,0,'Lingue di gatto',14,2),(105,82,0,'Bigné alla crema',15,3),(106,82,0,'Bigné al caffè',15,4),(107,82,0,'Pizzette',16,5),(108,82,0,'Croissant al prosciutto crudo mignon',9,6),(109,82,0,'Tramezzini tonno e carciofini mignon',17,7),(112,86,41,'Vitello tonnato',1,0),(113,86,41,'Carpaccio di spada',2,1),(114,86,41,'Alici marinate',3,2),(115,86,42,'Penne alla messinese',5,0),(116,86,42,'Risotto alla zucca',20,1),(117,86,43,'Salmone al forno',8,0),(118,86,44,'Sorbetto al limone',18,0),(119,86,44,'Torta Saint Honoré',19,1);
 /*!40000 ALTER TABLE `MenuItems` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -115,10 +115,10 @@ CREATE TABLE `MenuSections` (
 -- Dumping data for table `MenuSections`
 --
 
-LOCK TABLES `MenuSections` WRITE; 
-/*!40000 ALTER TABLE `MenuSections` DISABLE KEYS */;  
+LOCK TABLES `MenuSections` WRITE;
+/*!40000 ALTER TABLE `MenuSections` DISABLE KEYS */;
 INSERT INTO `MenuSections` VALUES (41,86,'Antipasti',0),(42,86,'Primi',1),(43,86,'Secondi',2),(44,86,'Dessert',3),(45,87,'Antipasti',0);
-/*!40000 ALTER TABLE `MenuSections` ENABLE KEYS */; 
+/*!40000 ALTER TABLE `MenuSections` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -340,13 +340,13 @@ UNLOCK TABLES;
 -- Table structure for table `UserAssignedShift`
 --
 
--- DROP TABLE IF EXISTS `UserAssignedShift`;
--- CREATE TABLE `UserAssignedShift` (
---   `id` int(11) NOT NULL AUTO_INCREMENT,
---   `user_id` int(11) DEFAULT NULL,
---   `shift_id` int(11) DEFAULT NULL,
---   PRIMARY KEY (`id`)
--- ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+DROP TABLE IF EXISTS `UserAssignedShift`;
+CREATE TABLE `UserAssignedShift` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) DEFAULT NULL,
+  `shift_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

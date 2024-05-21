@@ -21,7 +21,7 @@ public class CatERing {
 
     private MenuManager menuMgr;
     private RecipeManager recipeMgr;
-    private UserManager userMgr;
+    private final UserManager userMgr;
     private EventManager eventMgr;
     private ShiftManager shiftMgr;
     private KitchenTaskManager ktMgr;

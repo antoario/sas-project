@@ -1,42 +1,45 @@
 package catering.ui;
 
 import catering.businesslogic.CatERing;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.FXML;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.FlowPane;
 import catering.ui.menu.MenuManagement;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.Objects;
 
 public class Main {
 
     @FXML
-    AnchorPane paneContainer;
+    private AnchorPane paneContainer;
 
     @FXML
-    FlowPane startPane;
+    private FlowPane startPane;
 
     @FXML
-    Start startPaneController;
+    private Start startPaneController;
 
-    BorderPane menuManagementPane;
-    MenuManagement menuManagementPaneController;
+    private BorderPane menuManagementPane;
+    private MenuManagement menuManagementPaneController;
 
+    @FXML
     public void initialize() {
         startPaneController.setParent(this);
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("menu/menu-management.fxml"));
+        URL fxmlUrl = getClass().getResource("/ui/menu/menu-management.fxml");
+
+        FXMLLoader loader = new FXMLLoader(Objects.requireNonNull(fxmlUrl));
         try {
             menuManagementPane = loader.load();
             menuManagementPaneController = loader.getController();
             menuManagementPaneController.setMainPaneController(this);
-
         } catch (IOException ex) {
             ex.printStackTrace();
         }
-
     }
 
     public void startMenuManagement() {
@@ -49,7 +52,6 @@ public class Main {
         AnchorPane.setBottomAnchor(menuManagementPane, 0.0);
         AnchorPane.setLeftAnchor(menuManagementPane, 0.0);
         AnchorPane.setRightAnchor(menuManagementPane, 0.0);
-
     }
 
     public void showStartPane() {

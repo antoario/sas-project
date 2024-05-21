@@ -31,7 +31,7 @@ public class MenuManagement {
 
     public void initialize() {
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("menu-content.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/ui/menu/menu-content.fxml"));
         try {
             menuContentPane = loader.load();
         } catch(IOException ex) {

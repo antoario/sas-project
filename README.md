@@ -3,7 +3,7 @@ sas project unito
 
 
 to compile:
-    - PATH_TO_FX : /etc/javafx-sdk-22.0.2/bin
+    - export PATH_TO_FX=/etc/javafx-sdk-22.0.2/lib/
     - javac --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml $(find main -name "*.java") -d out
     - cp -r main/ui/*.fxml out/main/ui/
     - cp -r main/ui/general/*.fxml out/main/ui/general/
